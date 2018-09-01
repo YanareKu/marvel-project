@@ -1,0 +1,9 @@
+#hero-container {
+  display:flex;
+  flex-wrap: wrap;
+  max-width:500px;
+}
+
+.hero img {
+  width:150px;
+}

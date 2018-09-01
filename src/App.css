@@ -1,9 +1,7 @@
 #hero-container {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-  max-width:500px;
-}
+  max-width: 500px; }
 
 .hero img {
-  width:150px;
-}
+  width: 150px; }
