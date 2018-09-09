@@ -1,7 +1,25 @@
-#hero-container {
+/*#hero-container {
   display: flex;
   flex-wrap: wrap;
   max-width: 500px; }
 
 .hero img {
   width: 150px; }
+*/
+
+#progressBar {
+  width:600px;
+  height:30px;
+  border:1px solid black;
+  margin:50px;
+}
+
+#bar {
+  height:100%;
+  background-color:green;
+  width:0%;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
