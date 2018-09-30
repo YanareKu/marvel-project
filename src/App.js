@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class Heroes extends Component {
@@ -32,7 +31,7 @@ class Heroes extends Component {
         {this.state.heroes.map(hero => (
           // Turn this into another react component
           <div className="hero">
-            <img src={`${hero.thumbnail.path}.${hero.thumbnail.extension}`} />
+            <img src={`${hero.thumbnail.path}.${hero.thumbnail.extension}`} alt="Hero" />
             <div>{hero.name}</div>
           </div>
         ))}
